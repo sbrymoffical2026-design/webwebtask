@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our School - Registration & Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🏫 Our School</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html" class="active">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <h1>Registration & Booking</h1>
+    <p>Fill in the details below to register or book your place</p>
+  </div>
+
+  <main class="container">
+    <div class="form-box" style="max-width: 800px;">
+      <form>
+        <div class="form-grid">
+          <div>
+            <h3 style="margin-bottom: 15px; font-size: 16px; color: var(--dark-blue);">Personal Information</h3>
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Enter your phone number">
+            </div>
+          </div>
+
+          <div>
+            <h3 style="margin-bottom: 15px; font-size: 16px; color: var(--dark-blue);">Booking Details</h3>
+            <div class="form-group">
+              <label>Course / Activity</label>
+              <select class="form-control">
+                <option value="">Select a course or activity</option>
+                <option value="math">Mathematics</option>
+                <option value="science">Science</option>
+                <option value="computer">Computer Science</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Date</label>
+              <input type="date" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Message (Optional)</label>
+              <textarea class="form-control" rows="2" placeholder="Type your message"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn" style="margin-top: 15px;">Submit</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
